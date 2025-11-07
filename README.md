@@ -1,6 +1,6 @@
 # interfaceModificationsSonore
 TP Co_Inter info-physique sur la création d'un equalizer
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Installation :
 
 Ouvrir un GitBash dans ses documents → clique droit, afficher d'autre option, Open Git Bash Here
@@ -11,7 +11,7 @@ cd Github
 
 Installer les dépendences :
 pip install numpy scipy sounddevice
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Utilisation :
 
 1) Lancez l’application avec python 00-interfaceEqualizer.py
@@ -21,14 +21,15 @@ Utilisation :
 
 Cliquez sur “Enregistrer le fichier modifié” pour sauvegarder le résultat.
 Ou cliquez sur stop pour arrêter la lecture du fichier audio.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Détails techniques :
 
 Filtrage : Utilisation de filtres Butterworth passe-bande via scipy.signal.sosfilt.
 Gain : Les valeurs des sliders sont en dB et converties en gain linéaire.
 Normalisation : Après traitement, le signal est normalisé pour éviter la saturation.
 Stéréo → Mono : Les fichiers stéréo sont convertis en mono pour un traitement uniforme.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Structure du projet :
 
 Documents
@@ -40,5 +41,5 @@ interfaceModificationsSonore/
 ├─ 00-interfaceEqualizer.py      # Script principal
 ├─ README.md               # Documentation
 └─ LW_20M_amis.wav       # Fichier de sortie après traitement
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
