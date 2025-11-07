@@ -6,8 +6,7 @@ Installation :
 Ouvrir un GitBash dans ses documents → clique droit, afficher d'autre option, Open Git Bash Here
 
 Cloner le projet :
-git clone https://github.com/mmarchive3570/interfaceModificationsSonore.git
-cd Github
+git clone https://github.com/mmarchive3570/interfaceModificationsSonore.git, puis cd Github
 
 Installer les dépendences :
 pip install numpy scipy sounddevice
